@@ -1,6 +1,30 @@
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/your-username/your-repo.git
-git push -u origin main
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+/* Cyber-themed font definitions */
+.cyber-font {
+  font-family: 'Orbitron', 'Courier New', monospace;
+}
+
+/* Additional cyber font weights */
+.cyber-font-light {
+  font-family: 'Orbitron', 'Courier New', monospace;
+  font-weight: 400;
+}
+
+.cyber-font-bold {
+  font-family: 'Orbitron', 'Courier New', monospace;
+  font-weight: 700;
+}
+
+.cyber-font-black {
+  font-family: 'Orbitron', 'Courier New', monospace;
+  font-weight: 900;
+}
+
+/* Fallback fonts for better compatibility */
+@font-face {
+  font-family: 'CyberFallback';
+  src: local('Courier New'), local('Monaco'), local('Consolas');
+  font-weight: normal;
+  font-style: normal;
+}
